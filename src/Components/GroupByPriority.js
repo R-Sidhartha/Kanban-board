@@ -6,7 +6,6 @@ const priorityLabels = {
   2: "Medium",
   1: "Low",
   0: "No priority",
-  // Add more as needed
 };
 const GroupByPriority = ({ ticketsByPriority }) => {
   const { priorityicons, statusIcons } = useContext(AssetContext);
